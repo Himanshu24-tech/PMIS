@@ -18,6 +18,9 @@ class Animal2 {
     void eat() {
         System.out.println("Animal is eating");
     }
+    void test(){
+        System.out.println("test");
+    }
 }
 
 class Dog extends Animal2 {
