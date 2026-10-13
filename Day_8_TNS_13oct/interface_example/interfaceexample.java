@@ -1,4 +1,4 @@
-//package interface_example;
+package Day_8_TNS_13oct.interface_example;
 interface payment {
     void pay(double amount);
 }
