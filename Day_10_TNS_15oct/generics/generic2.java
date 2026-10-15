@@ -1,0 +1,24 @@
+//package Day_10_TNS_15oct.generics;
+class Pair<K,V>{
+    private K key;
+    private V value;
+    public Pair(K key, V value){
+        this.key = key;
+        this.value = value;
+    }
+    K getKey(){
+        return key;
+    }
+    V getValue(){
+        return value;
+    }
+}
+public class generic2 {
+    public static void main(String[] args) {
+        Pair<String,Integer> p = new Pair<>("Age",25);
+        String k = p.getKey();
+        Integer v = p.getValue();
+        System.out.println(k + " : " + v);
+    }
+    
+}
